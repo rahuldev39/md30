@@ -371,9 +371,18 @@ body {
 .searchbar{
     max-width: 504px;
 }
+.blog-cta1{
+    padding: 54px 80px 80px 80px;
+}
 
-
-
-
-
-
+.blog-cta2{
+    padding: 32px 32px 32px 64px;
+}
+.blog-cta3{
+    padding: 80px;
+}
+@media(max-width:768px){
+    .blog-cta1,.blog-cta3{
+        padding: 32px;
+    }
+}
